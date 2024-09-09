@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.csproj": {}
+    "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\PishmanBet.csproj": {}
   },
   "projects": {
-    "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.csproj": {
+    "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\PishmanBet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.csproj",
+        "projectUniqueName": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\PishmanBet.csproj",
         "projectName": "PishmanBet",
-        "projectPath": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.csproj",
+        "projectPath": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\PishmanBet.csproj",
         "packagesPath": "C:\\Users\\KHadzhiyski\\.nuget\\packages\\",
-        "outputPath": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\obj\\",
+        "outputPath": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,19 +51,25 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.15, )"
+              "version": "[6.0.33, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[6.0.15, )"
+              "version": "[6.0.33, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.15, )"
+              "version": "[6.0.33, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.15, )"
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.17, )"
             }
           },
           "imports": [
