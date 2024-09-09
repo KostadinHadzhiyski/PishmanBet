@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PishmanBet.Common\PishmanBet.Common.csproj" />
     <ProjectReference Include="..\PishmanBet.Data\PishmanBet.Data.csproj" />
   </ItemGroup>
 

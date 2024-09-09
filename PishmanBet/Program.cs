@@ -19,11 +19,13 @@ namespace PishmanBet
             builder.Services.AddDefaultIdentity<IdentityUser>(options =>
             {
 
-                options.SignIn.RequireConfirmedAccount = true;
+                options.SignIn.RequireConfirmedAccount = false;
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequireDigit = false;
                 options.Password.RequireLowercase = false;
                 options.Password.RequireUppercase = false;
+                options.SignIn.RequireConfirmedEmail = false;
+                options.SignIn.RequireConfirmedPhoneNumber = false;
             })
                 .AddEntityFrameworkStores<PishmanBetDbContext>();
             builder.Services.AddControllersWithViews();

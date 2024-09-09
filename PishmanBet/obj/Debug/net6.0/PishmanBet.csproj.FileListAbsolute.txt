@@ -256,3 +256,5 @@ D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\zh-Hant
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Data.dll
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Data.pdb
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Common.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Common.pdb
