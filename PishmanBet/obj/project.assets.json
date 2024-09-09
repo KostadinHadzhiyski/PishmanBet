@@ -3735,6 +3735,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "PishmanBet.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.33",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.33"
+        },
+        "compile": {
+          "bin/placeholder/PishmanBet.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PishmanBet.Data.dll": {}
+        }
       }
     }
   },
@@ -10748,6 +10762,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "PishmanBet.Data/1.0.0": {
+      "type": "project",
+      "path": "../PishmanBet.Data/PishmanBet.Data.csproj",
+      "msbuildProject": "../PishmanBet.Data/PishmanBet.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10757,7 +10776,8 @@
       "Microsoft.AspNetCore.Identity.UI >= 6.0.33",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.33",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.33",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.17"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.17",
+      "PishmanBet.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10792,7 +10812,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\PishmanBet.Data.csproj": {
+              "projectPath": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\PishmanBet.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
