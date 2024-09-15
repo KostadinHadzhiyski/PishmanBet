@@ -3759,6 +3759,29 @@
         "runtime": {
           "bin/placeholder/PishmanBet.Data.dll": {}
         }
+      },
+      "PishmanBet.Data.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PishmanBet.Data.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PishmanBet.Data.ViewModels.dll": {}
+        }
+      },
+      "PishmanBet.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PishmanBet.Data.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PishmanBet.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PishmanBet.Services.dll": {}
+        }
       }
     }
   },
@@ -10782,6 +10805,16 @@
       "type": "project",
       "path": "../PishmanBet.Data/PishmanBet.Data.csproj",
       "msbuildProject": "../PishmanBet.Data/PishmanBet.Data.csproj"
+    },
+    "PishmanBet.Data.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../PishmanBet.Data.ViewModels/PishmanBet.Data.ViewModels.csproj",
+      "msbuildProject": "../PishmanBet.Data.ViewModels/PishmanBet.Data.ViewModels.csproj"
+    },
+    "PishmanBet.Services/1.0.0": {
+      "type": "project",
+      "path": "../PishmanBet.Services/PishmanBet.Services.csproj",
+      "msbuildProject": "../PishmanBet.Services/PishmanBet.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10793,7 +10826,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.33",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.17",
       "PishmanBet.Common >= 1.0.0",
-      "PishmanBet.Data >= 1.0.0"
+      "PishmanBet.Data >= 1.0.0",
+      "PishmanBet.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10834,6 +10868,9 @@
             },
             "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\PishmanBet.Data.csproj": {
               "projectPath": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\PishmanBet.Data.csproj"
+            },
+            "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\PishmanBet.Services.csproj": {
+              "projectPath": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\PishmanBet.Services.csproj"
             }
           }
         }

@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PishmanBet.Data;
+using PishmanBet.Services;
+using PishmanBet.Services.Contracts;
 
 namespace PishmanBet
 {
@@ -15,6 +17,8 @@ namespace PishmanBet
             builder.Services.AddDbContext<PishmanBetDbContext>(options =>
                 options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+            builder.Services.AddScoped<IMatchService, MatchService>();
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options =>
             {
