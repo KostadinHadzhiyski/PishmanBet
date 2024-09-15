@@ -1,0 +1,12 @@
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Common\bin\Debug\net6.0\PishmanBet.Common.deps.json
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Common\bin\Debug\net6.0\PishmanBet.Common.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Common\bin\Debug\net6.0\PishmanBet.Common.pdb
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Common\obj\Debug\net6.0\PishmanBet.Common.csproj.AssemblyReference.cache
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Common\obj\Debug\net6.0\PishmanBet.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Common\obj\Debug\net6.0\PishmanBet.Common.AssemblyInfoInputs.cache
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Common\obj\Debug\net6.0\PishmanBet.Common.AssemblyInfo.cs
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Common\obj\Debug\net6.0\PishmanBet.Common.csproj.CoreCompileInputs.cache
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Common\obj\Debug\net6.0\PishmanBet.Common.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Common\obj\Debug\net6.0\refint\PishmanBet.Common.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Common\obj\Debug\net6.0\PishmanBet.Common.pdb
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Common\obj\Debug\net6.0\ref\PishmanBet.Common.dll

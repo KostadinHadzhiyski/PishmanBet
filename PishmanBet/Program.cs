@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PishmanBet.Data;
+using PishmanBet.Services;
+using PishmanBet.Services.Contracts;
 
 namespace PishmanBet
 {
@@ -16,14 +18,18 @@ namespace PishmanBet
                 options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+            builder.Services.AddScoped<IMatchService, MatchService>();
+
             builder.Services.AddDefaultIdentity<IdentityUser>(options =>
             {
 
-                options.SignIn.RequireConfirmedAccount = true;
+                options.SignIn.RequireConfirmedAccount = false;
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequireDigit = false;
                 options.Password.RequireLowercase = false;
                 options.Password.RequireUppercase = false;
+                options.SignIn.RequireConfirmedEmail = false;
+                options.SignIn.RequireConfirmedPhoneNumber = false;
             })
                 .AddEntityFrameworkStores<PishmanBetDbContext>();
             builder.Services.AddControllersWithViews();

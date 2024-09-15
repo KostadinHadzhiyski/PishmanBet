@@ -3736,6 +3736,16 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "PishmanBet.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PishmanBet.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PishmanBet.Common.dll": {}
+        }
+      },
       "PishmanBet.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3748,6 +3758,29 @@
         },
         "runtime": {
           "bin/placeholder/PishmanBet.Data.dll": {}
+        }
+      },
+      "PishmanBet.Data.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PishmanBet.Data.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PishmanBet.Data.ViewModels.dll": {}
+        }
+      },
+      "PishmanBet.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PishmanBet.Data.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PishmanBet.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PishmanBet.Services.dll": {}
         }
       }
     }
@@ -10763,10 +10796,25 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "PishmanBet.Common/1.0.0": {
+      "type": "project",
+      "path": "../PishmanBet.Common/PishmanBet.Common.csproj",
+      "msbuildProject": "../PishmanBet.Common/PishmanBet.Common.csproj"
+    },
     "PishmanBet.Data/1.0.0": {
       "type": "project",
       "path": "../PishmanBet.Data/PishmanBet.Data.csproj",
       "msbuildProject": "../PishmanBet.Data/PishmanBet.Data.csproj"
+    },
+    "PishmanBet.Data.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../PishmanBet.Data.ViewModels/PishmanBet.Data.ViewModels.csproj",
+      "msbuildProject": "../PishmanBet.Data.ViewModels/PishmanBet.Data.ViewModels.csproj"
+    },
+    "PishmanBet.Services/1.0.0": {
+      "type": "project",
+      "path": "../PishmanBet.Services/PishmanBet.Services.csproj",
+      "msbuildProject": "../PishmanBet.Services/PishmanBet.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10777,7 +10825,9 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.33",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.33",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.17",
-      "PishmanBet.Data >= 1.0.0"
+      "PishmanBet.Common >= 1.0.0",
+      "PishmanBet.Data >= 1.0.0",
+      "PishmanBet.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10813,8 +10863,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Common\\PishmanBet.Common.csproj": {
+              "projectPath": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Common\\PishmanBet.Common.csproj"
+            },
             "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\PishmanBet.Data.csproj": {
               "projectPath": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\PishmanBet.Data.csproj"
+            },
+            "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\PishmanBet.Services.csproj": {
+              "projectPath": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\PishmanBet.Services.csproj"
             }
           }
         }
