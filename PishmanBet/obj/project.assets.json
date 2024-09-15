@@ -3751,13 +3751,27 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.33",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.33"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.33",
+          "PishmanBet.Data.Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/PishmanBet.Data.dll": {}
         },
         "runtime": {
           "bin/placeholder/PishmanBet.Data.dll": {}
+        }
+      },
+      "PishmanBet.Data.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PishmanBet.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PishmanBet.Data.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PishmanBet.Data.Models.dll": {}
         }
       },
       "PishmanBet.Data.ViewModels/1.0.0": {
@@ -10805,6 +10819,11 @@
       "type": "project",
       "path": "../PishmanBet.Data/PishmanBet.Data.csproj",
       "msbuildProject": "../PishmanBet.Data/PishmanBet.Data.csproj"
+    },
+    "PishmanBet.Data.Models/1.0.0": {
+      "type": "project",
+      "path": "../PishmanBet.Data.Models/PishmanBet.Data.Models.csproj",
+      "msbuildProject": "../PishmanBet.Data.Models/PishmanBet.Data.Models.csproj"
     },
     "PishmanBet.Data.ViewModels/1.0.0": {
       "type": "project",

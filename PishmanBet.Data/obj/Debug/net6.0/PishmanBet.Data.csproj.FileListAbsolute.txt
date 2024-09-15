@@ -12,3 +12,8 @@ D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\obj\Debug\net6.0\re
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\obj\Debug\net6.0\PishmanBet.Data.pdb
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\obj\Debug\net6.0\PishmanBet.Data.genruntimeconfig.cache
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\obj\Debug\net6.0\ref\PishmanBet.Data.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\bin\Debug\net6.0\PishmanBet.Common.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\bin\Debug\net6.0\PishmanBet.Data.Models.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\bin\Debug\net6.0\PishmanBet.Data.Models.pdb
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\bin\Debug\net6.0\PishmanBet.Common.pdb
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\obj\Debug\net6.0\PishmanBet.Data.csproj.CopyComplete

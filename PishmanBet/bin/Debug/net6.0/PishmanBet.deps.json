@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "6.0.33",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.17",
           "PishmanBet.Common": "1.0.0",
-          "PishmanBet.Data": "1.0.0"
+          "PishmanBet.Data": "1.0.0",
+          "PishmanBet.Services": "1.0.0"
         },
         "runtime": {
           "PishmanBet.dll": {}
@@ -2524,10 +2525,32 @@
       "PishmanBet.Data/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.33",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.33"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.33",
+          "PishmanBet.Data.Models": "1.0.0"
         },
         "runtime": {
           "PishmanBet.Data.dll": {}
+        }
+      },
+      "PishmanBet.Data.Models/1.0.0": {
+        "dependencies": {
+          "PishmanBet.Common": "1.0.0"
+        },
+        "runtime": {
+          "PishmanBet.Data.Models.dll": {}
+        }
+      },
+      "PishmanBet.Data.ViewModels/1.0.0": {
+        "runtime": {
+          "PishmanBet.Data.ViewModels.dll": {}
+        }
+      },
+      "PishmanBet.Services/1.0.0": {
+        "dependencies": {
+          "PishmanBet.Data.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "PishmanBet.Services.dll": {}
         }
       }
     }
@@ -4063,6 +4086,21 @@
       "sha512": ""
     },
     "PishmanBet.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PishmanBet.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PishmanBet.Data.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PishmanBet.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

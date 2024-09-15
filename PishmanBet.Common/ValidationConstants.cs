@@ -15,5 +15,24 @@ namespace PishmanBet.Common
             public const int PasswordMinLength = 6;
             public const int PasswordMaxLength = 100;
         }
+
+        public static class FootballTeam
+        {
+            public const int FootballTeamNameMinLength = 3;
+            public const int FootballTeamNameMaxLength = 50;
+
+            public const int FootballTeamOddNameMinLength = 3;
+            public const int FootballTeamOddNameMaxLength = 50;
+
+            public const int FootballTeamScoreNameMinLength = 3;
+            public const int FootballTeamScoreNameMaxLength = 50;
+
+
+        }
+
+        public static class FootballMatch
+        {
+            public const int ScoreMaxValue = 50;
+        }
     }
 }
