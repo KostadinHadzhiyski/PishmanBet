@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PishmanBet.Common\PishmanBet.Common.csproj" />
+  </ItemGroup>
+
 </Project>

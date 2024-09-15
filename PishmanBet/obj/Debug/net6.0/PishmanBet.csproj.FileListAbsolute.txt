@@ -258,3 +258,9 @@ D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\Pishman
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Data.pdb
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Common.dll
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Common.pdb
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Data.Models.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Data.ViewModels.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Services.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Services.pdb
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Data.Models.pdb
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Data.ViewModels.pdb

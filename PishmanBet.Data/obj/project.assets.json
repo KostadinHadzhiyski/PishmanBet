@@ -864,6 +864,29 @@
             "rid": "win"
           }
         }
+      },
+      "PishmanBet.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PishmanBet.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PishmanBet.Common.dll": {}
+        }
+      },
+      "PishmanBet.Data.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PishmanBet.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PishmanBet.Data.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PishmanBet.Data.Models.dll": {}
+        }
       }
     }
   },
@@ -2176,13 +2199,24 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "PishmanBet.Common/1.0.0": {
+      "type": "project",
+      "path": "../PishmanBet.Common/PishmanBet.Common.csproj",
+      "msbuildProject": "../PishmanBet.Common/PishmanBet.Common.csproj"
+    },
+    "PishmanBet.Data.Models/1.0.0": {
+      "type": "project",
+      "path": "../PishmanBet.Data.Models/PishmanBet.Data.Models.csproj",
+      "msbuildProject": "../PishmanBet.Data.Models/PishmanBet.Data.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.33",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.33",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.33"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.33",
+      "PishmanBet.Data.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2217,7 +2251,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.Models\\PishmanBet.Data.Models.csproj": {
+              "projectPath": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.Models\\PishmanBet.Data.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

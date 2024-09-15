@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PishmanBet.Services/1.0.0": {
+        "dependencies": {
+          "PishmanBet.Data.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "PishmanBet.Services.dll": {}
+        }
+      },
+      "PishmanBet.Data.ViewModels/1.0.0": {
+        "runtime": {
+          "PishmanBet.Data.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PishmanBet.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PishmanBet.Data.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
