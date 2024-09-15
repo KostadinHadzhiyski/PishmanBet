@@ -1,14 +1,16 @@
 ﻿
 namespace PishmanBet.Data.ViewModels
 {
-    public class FootballMatchViewModel
+    public class FootballMatchGetModel
     {
         public string HomeTeamName { get; set; } = null!;
         public string AwayTeamName { get; set; } = null!;
-        public decimal HomeTeamOdd { get; set; }
+        public double HomeTeamOdd { get; set; }
 
-        public decimal AwayTeamOdd { get; set; }
+        public double AwayTeamOdd { get; set; }
 
-        public decimal DrawOdd { get; set; }
+        public double DrawOdd { get; set; }
+
+        public string StartDateTime { get; set; } = null!;
     }
 }

@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PishmanBet.Data.Models\PishmanBet.Data.Models.csproj" />
     <ProjectReference Include="..\PishmanBet.Data.ViewModels\PishmanBet.Data.ViewModels.csproj" />
+    <ProjectReference Include="..\PishmanBet.Data\PishmanBet.Data.csproj" />
   </ItemGroup>
 
 </Project>

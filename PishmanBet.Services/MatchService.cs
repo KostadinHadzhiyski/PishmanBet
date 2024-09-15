@@ -1,12 +1,11 @@
-﻿using PishmanBet.Data.ViewModels;
+﻿using Microsoft.EntityFrameworkCore;
+using PishmanBet.Data;
+using PishmanBet.Data.Models;
+using PishmanBet.Data.ViewModels;
 using PishmanBet.Services.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+
 
 namespace PishmanBet.Services
 {
@@ -16,18 +15,21 @@ namespace PishmanBet.Services
 
         private string matchesString = null!;
 
-        public MatchService()
+        private PishmanBetDbContext context;
+
+        public MatchService(PishmanBetDbContext _context)
         {
             matchesString = GetMatchesString();
+            context = _context;
         }
 
-        public async Task<ICollection<FootballMatchViewModel>> GetComingMatches()
+        public ICollection<FootballMatchGetModel> GetComingMatches()
         {
 
-            List<FootballMatchViewModel>? footballMatches = GetFootballMatches().ToList();
+            List<FootballMatchGetModel>? footballMatches = GetFootballMatches().ToList();
 
 
-            foreach (FootballMatchViewModel footballMatch in footballMatches)
+            foreach (FootballMatchGetModel footballMatch in footballMatches)
             {
 
                 string currentMatchOddPattern = GetMatchOddsPattern(footballMatch);
@@ -40,32 +42,39 @@ namespace PishmanBet.Services
                 footballMatch.AwayTeamOdd = DecimalOddConvert(match.Groups[3].Value);
             }
 
+
+
             return footballMatches;
         }
 
-        private ICollection<FootballMatchViewModel> GetFootballMatches()
+        private ICollection<FootballMatchGetModel> GetFootballMatches()
         { 
 
-            string pattern = @"Event Accordion for ([a-zA-z 0-9]*) vs ([a-zA-Z 0-9]*)";
+            string pattern = @"Event Accordion for ([a-zA-z 0-9]*?) vs ([a-zA-Z 0-9]*).*?sportsbook-event-accordion__date.{2}<span>(.*?)\<";
 
 
             RegexOptions regexOptions = RegexOptions.IgnoreCase;
+   
+            
+            
 
-            List<FootballMatchViewModel> footballMatches = new List<FootballMatchViewModel>();
+            List<FootballMatchGetModel> footballMatches = new List<FootballMatchGetModel>();
+
+            
 
             foreach (Match match in Regex.Matches(matchesString, pattern, regexOptions))
             {
-                FootballMatchViewModel footballMatch = new FootballMatchViewModel();
+                FootballMatchGetModel footballMatch = new FootballMatchGetModel();
                 footballMatch.HomeTeamName = match.Groups[1].Value;
                 footballMatch.AwayTeamName = match.Groups[2].Value;
-
+                footballMatch.StartDateTime = match.Groups[3].Value;
                 footballMatches.Add(footballMatch);
             }
 
             return footballMatches;
         }
 
-        private string GetMatchOddsPattern(FootballMatchViewModel footballMatch)
+        private string GetMatchOddsPattern(FootballMatchGetModel footballMatch)
         {
             StringBuilder currentMatchOddPattern = new StringBuilder();
 
@@ -84,22 +93,96 @@ namespace PishmanBet.Services
             return client.GetStringAsync(GetComingMatchesURL).Result;
         }
 
-        private decimal DecimalOddConvert(string input)
+        private double DecimalOddConvert(string input)
         {
             string sign = input.Substring(0, 1);
             int americanOddValue = int.Parse(input.Substring(1));
+            double result;
 
-            if(sign == "-")
+            if(sign == "+")
             {
-                return 1 + (100 / americanOddValue);
+                result = 1 + (americanOddValue / 100.00);
             }
             else
             {
-                return 1 + (americanOddValue / 100);
+                result = 1 + (100.00 / americanOddValue);
             }
+
+            return Math.Round(result,2);
+        }
+
+        public async Task WriteNewMatches(ICollection<FootballMatchGetModel> gettedMatches)
+        {
+            foreach (var gettedMatch in gettedMatches)
+            {
+                bool isMatchExist = await IsMatchExist(gettedMatch);
+
+                if (!isMatchExist) 
+                {
+                    await CreateMatch(gettedMatch);
+                }
+            }
+        }
+
+        private async Task<bool> IsMatchExist(FootballMatchGetModel gettedMatch)
+        {
+            var findedMatch = await context
+                .Matches
+                .FirstOrDefaultAsync(m => m.HomeTeam.Name == gettedMatch.HomeTeamName
+                    && m.AwayTeam.Name == gettedMatch.AwayTeamName);
+            if (findedMatch == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        private async Task<FootballMatch> CreateMatch(FootballMatchGetModel gettedMatch)
+        {
+            FootballTeam? homeTeam =  await context
+                .Teams
+                .FirstOrDefaultAsync(t => t.Name == gettedMatch.HomeTeamName);
+
+            if (homeTeam == null){
+                homeTeam = await CreateFootballTeam(gettedMatch.HomeTeamName);
+            }
+
+            FootballTeam? awayTeam = await context
+               .Teams
+               .FirstOrDefaultAsync(t => t.Name == gettedMatch.AwayTeamName);
+
+            if (awayTeam == null)
+            {
+                awayTeam = await CreateFootballTeam(gettedMatch.AwayTeamName);
+            }
+
+
+            FootballMatch match = new FootballMatch
+            {
+                MatchStatus = Common.Enums.MatchStatus.NotStarted,
+                HomeTeam = homeTeam,
+                AwayTeam = awayTeam,
+            };
+
+            return match;
+        }
+
+        private async Task<FootballTeam> CreateFootballTeam(string footballName)
+        {
+            FootballTeam team = new FootballTeam
+            {
+                Name = footballName,
+            };
+
+            await context.Teams.AddAsync(team);
+            await context.SaveChangesAsync();
+            return team;
         }
     }
 
         
-    }
+}
 

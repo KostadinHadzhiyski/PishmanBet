@@ -3788,6 +3788,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "PishmanBet.Data": "1.0.0",
+          "PishmanBet.Data.Models": "1.0.0",
           "PishmanBet.Data.ViewModels": "1.0.0"
         },
         "compile": {
