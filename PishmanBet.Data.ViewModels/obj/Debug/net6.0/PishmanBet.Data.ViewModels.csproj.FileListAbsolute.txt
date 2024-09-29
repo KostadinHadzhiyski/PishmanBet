@@ -1,7 +1,6 @@
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.ViewModels\bin\Debug\net6.0\PishmanBet.Data.ViewModels.deps.json
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.ViewModels\bin\Debug\net6.0\PishmanBet.Data.ViewModels.dll
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.ViewModels\bin\Debug\net6.0\PishmanBet.Data.ViewModels.pdb
-D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.ViewModels\obj\Debug\net6.0\PishmanBet.Data.ViewModels.csproj.AssemblyReference.cache
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.ViewModels\obj\Debug\net6.0\PishmanBet.Data.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.ViewModels\obj\Debug\net6.0\PishmanBet.Data.ViewModels.AssemblyInfoInputs.cache
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.ViewModels\obj\Debug\net6.0\PishmanBet.Data.ViewModels.AssemblyInfo.cs
@@ -10,3 +9,4 @@ D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.ViewModels\obj\Debu
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.ViewModels\obj\Debug\net6.0\refint\PishmanBet.Data.ViewModels.dll
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.ViewModels\obj\Debug\net6.0\PishmanBet.Data.ViewModels.pdb
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.ViewModels\obj\Debug\net6.0\ref\PishmanBet.Data.ViewModels.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.ViewModels\obj\Debug\net6.0\PishmanBet.Data.ViewModels.sourcelink.json

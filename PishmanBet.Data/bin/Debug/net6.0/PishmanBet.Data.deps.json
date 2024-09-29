@@ -549,7 +549,10 @@
       },
       "PishmanBet.Common/1.0.0": {
         "runtime": {
-          "PishmanBet.Common.dll": {}
+          "PishmanBet.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PishmanBet.Data.Models/1.0.0": {
@@ -557,7 +560,10 @@
           "PishmanBet.Common": "1.0.0"
         },
         "runtime": {
-          "PishmanBet.Data.Models.dll": {}
+          "PishmanBet.Data.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

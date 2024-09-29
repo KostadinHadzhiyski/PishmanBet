@@ -16,4 +16,5 @@ D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\bin\Debug\net6.0\Pi
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\bin\Debug\net6.0\PishmanBet.Data.Models.dll
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\bin\Debug\net6.0\PishmanBet.Data.Models.pdb
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\bin\Debug\net6.0\PishmanBet.Common.pdb
-D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\obj\Debug\net6.0\PishmanBet.Data.csproj.CopyComplete
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\obj\Debug\net6.0\PishmanBet.Data.sourcelink.json
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data\obj\Debug\net6.0\PishmanB.A5CA030D.Up2Date

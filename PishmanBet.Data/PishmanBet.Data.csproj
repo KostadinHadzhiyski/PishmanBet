@@ -19,4 +19,8 @@
     <ProjectReference Include="..\PishmanBet.Data.Models\PishmanBet.Data.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

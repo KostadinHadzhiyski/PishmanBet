@@ -17,13 +17,11 @@ namespace PishmanBet.Data.Models
         public Guid Id { get; set; }
 
 
-
         [Required]
         //[ForeignKey(nameof(HomeTeam))]
         public Guid HomeTeamId { get; set; }
 
         public virtual FootballTeam HomeTeam { get; set; } = null!;
-
 
 
         [Required]
@@ -32,8 +30,10 @@ namespace PishmanBet.Data.Models
 
         public virtual FootballTeam AwayTeam { get; set; } = null!;
 
+        [Required]
+        public DateTime StartDateUtc { get; set; }
 
-
+        public DateTime StartDateBg { get; set; } 
 
         public int HomeTeamScore { get; set; }
 

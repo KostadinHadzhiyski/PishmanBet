@@ -2519,7 +2519,10 @@
       },
       "PishmanBet.Common/1.0.0": {
         "runtime": {
-          "PishmanBet.Common.dll": {}
+          "PishmanBet.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PishmanBet.Data/1.0.0": {
@@ -2529,7 +2532,10 @@
           "PishmanBet.Data.Models": "1.0.0"
         },
         "runtime": {
-          "PishmanBet.Data.dll": {}
+          "PishmanBet.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PishmanBet.Data.Models/1.0.0": {
@@ -2537,20 +2543,32 @@
           "PishmanBet.Common": "1.0.0"
         },
         "runtime": {
-          "PishmanBet.Data.Models.dll": {}
+          "PishmanBet.Data.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PishmanBet.Data.ViewModels/1.0.0": {
         "runtime": {
-          "PishmanBet.Data.ViewModels.dll": {}
+          "PishmanBet.Data.ViewModels.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PishmanBet.Services/1.0.0": {
         "dependencies": {
+          "PishmanBet.Common": "1.0.0",
+          "PishmanBet.Data": "1.0.0",
+          "PishmanBet.Data.Models": "1.0.0",
           "PishmanBet.Data.ViewModels": "1.0.0"
         },
         "runtime": {
-          "PishmanBet.Services.dll": {}
+          "PishmanBet.Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

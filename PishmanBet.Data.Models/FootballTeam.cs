@@ -17,13 +17,13 @@ namespace PishmanBet.Data.Models
         [MaxLength(FootballTeamNameMaxLength)]
         public string Name { get; set; } = null!;
 
-        [Required]
+        
         [MaxLength(FootballTeamOddNameMaxLength)]
-        public string OddName { get; set; } = null!;
+        public string? OddName { get; set; }
 
-        [Required]
+        
         [MaxLength(FootballTeamScoreNameMaxLength)]
-        public string ScoreName { get; set; } = null!;
+        public string? ScoreName { get; set; }
 
         public ICollection<FootballMatch> Matches { get; set; } = new HashSet<FootballMatch>();
     }

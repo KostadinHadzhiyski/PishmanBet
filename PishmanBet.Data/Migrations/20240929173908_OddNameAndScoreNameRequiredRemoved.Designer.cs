@@ -12,8 +12,8 @@ using PishmanBet.Data;
 namespace PishmanBet.Data.Migrations
 {
     [DbContext(typeof(PishmanBetDbContext))]
-    [Migration("20240915165320_TeamsAdded")]
-    partial class TeamsAdded
+    [Migration("20240929173908_OddNameAndScoreNameRequiredRemoved")]
+    partial class OddNameAndScoreNameRequiredRemoved
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -226,6 +226,47 @@ namespace PishmanBet.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("PishmanBet.Data.Models.FootballMatch", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("AwayTeamId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("AwayTeamScore")
+                        .HasColumnType("int");
+
+                    b.Property<Guid?>("FootballTeamId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("HomeTeamId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("HomeTeamScore")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MatchStatus")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ScoreSign")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AwayTeamId");
+
+                    b.HasIndex("FootballTeamId");
+
+                    b.HasIndex("HomeTeamId");
+
+                    b.ToTable("Matches");
+                });
+
             modelBuilder.Entity("PishmanBet.Data.Models.FootballTeam", b =>
                 {
                     b.Property<Guid>("Id")
@@ -238,12 +279,10 @@ namespace PishmanBet.Data.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("OddName")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("ScoreName")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
@@ -301,6 +340,34 @@ namespace PishmanBet.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("PishmanBet.Data.Models.FootballMatch", b =>
+                {
+                    b.HasOne("PishmanBet.Data.Models.FootballTeam", "AwayTeam")
+                        .WithMany()
+                        .HasForeignKey("AwayTeamId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("PishmanBet.Data.Models.FootballTeam", null)
+                        .WithMany("Matches")
+                        .HasForeignKey("FootballTeamId");
+
+                    b.HasOne("PishmanBet.Data.Models.FootballTeam", "HomeTeam")
+                        .WithMany()
+                        .HasForeignKey("HomeTeamId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("AwayTeam");
+
+                    b.Navigation("HomeTeam");
+                });
+
+            modelBuilder.Entity("PishmanBet.Data.Models.FootballTeam", b =>
+                {
+                    b.Navigation("Matches");
                 });
 #pragma warning restore 612, 618
         }

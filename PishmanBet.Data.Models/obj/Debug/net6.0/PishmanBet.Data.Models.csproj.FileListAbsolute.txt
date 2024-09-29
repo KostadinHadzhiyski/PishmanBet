@@ -8,8 +8,9 @@ D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.Models\obj\Debug\ne
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.Models\obj\Debug\net6.0\PishmanBet.Data.Models.AssemblyInfoInputs.cache
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.Models\obj\Debug\net6.0\PishmanBet.Data.Models.AssemblyInfo.cs
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.Models\obj\Debug\net6.0\PishmanBet.Data.Models.csproj.CoreCompileInputs.cache
-D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.Models\obj\Debug\net6.0\PishmanBet.Data.Models.csproj.CopyComplete
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.Models\obj\Debug\net6.0\PishmanBet.Data.Models.dll
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.Models\obj\Debug\net6.0\refint\PishmanBet.Data.Models.dll
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.Models\obj\Debug\net6.0\PishmanBet.Data.Models.pdb
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.Models\obj\Debug\net6.0\ref\PishmanBet.Data.Models.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.Models\obj\Debug\net6.0\PishmanBet.Data.Models.sourcelink.json
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Data.Models\obj\Debug\net6.0\PishmanB.0CBE1C5C.Up2Date
