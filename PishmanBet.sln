@@ -13,7 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PishmanBet.Services", "Pish
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PishmanBet.Data.ViewModels", "PishmanBet.Data.ViewModels\PishmanBet.Data.ViewModels.csproj", "{CD3BC272-7BEC-4F4D-B9B6-2F0223901C1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PishmanBet.Data.Models", "PishmanBet.Data.Models\PishmanBet.Data.Models.csproj", "{1F8D4B8D-D84D-47FE-882D-976D2F14992E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PishmanBet.Data.Models", "PishmanBet.Data.Models\PishmanBet.Data.Models.csproj", "{1F8D4B8D-D84D-47FE-882D-976D2F14992E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB", "WEB", "{E2D39AA6-8803-43D4-955D-E181F652C079}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C7C3BEBC-524D-420D-92D1-3EDB86559731}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{57CDD1AC-B8A8-4BDF-97D8-9BA2AAD02A82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +54,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3} = {E2D39AA6-8803-43D4-955D-E181F652C079}
+		{56A220A9-408A-4ECF-841D-AD29CA6B867F} = {C7C3BEBC-524D-420D-92D1-3EDB86559731}
+		{0575BB4C-0899-4A0B-8552-70F0AC64EAA2} = {57CDD1AC-B8A8-4BDF-97D8-9BA2AAD02A82}
+		{CD3BC272-7BEC-4F4D-B9B6-2F0223901C1A} = {C7C3BEBC-524D-420D-92D1-3EDB86559731}
+		{1F8D4B8D-D84D-47FE-882D-976D2F14992E} = {C7C3BEBC-524D-420D-92D1-3EDB86559731}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7BBE7725-F5FC-4020-B90A-DCD8212851BF}

@@ -69,7 +69,6 @@ D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\obj\Debug\net6.0\staticw
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\obj\Debug\net6.0\scopedcss\bundle\PishmanBet.styles.css
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\obj\Debug\net6.0\scopedcss\projectbundle\PishmanBet.bundle.scp.css
-D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\obj\Debug\net6.0\PishmanBet.csproj.CopyComplete
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\obj\Debug\net6.0\PishmanBet.dll
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\obj\Debug\net6.0\refint\PishmanBet.dll
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\obj\Debug\net6.0\PishmanBet.pdb
@@ -264,3 +263,5 @@ D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\Pishman
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Services.pdb
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Data.Models.pdb
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\bin\Debug\net6.0\PishmanBet.Data.ViewModels.pdb
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\obj\Debug\net6.0\PishmanBet.sourcelink.json
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\obj\Debug\net6.0\PishmanBet.csproj.Up2Date

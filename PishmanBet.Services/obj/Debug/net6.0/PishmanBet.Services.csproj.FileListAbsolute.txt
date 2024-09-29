@@ -8,8 +8,15 @@ D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\obj\Debug\net6.
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\obj\Debug\net6.0\PishmanBet.Services.AssemblyInfoInputs.cache
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\obj\Debug\net6.0\PishmanBet.Services.AssemblyInfo.cs
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\obj\Debug\net6.0\PishmanBet.Services.csproj.CoreCompileInputs.cache
-D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\obj\Debug\net6.0\PishmanBet.Services.csproj.CopyComplete
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\obj\Debug\net6.0\PishmanBet.Services.dll
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\obj\Debug\net6.0\refint\PishmanBet.Services.dll
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\obj\Debug\net6.0\PishmanBet.Services.pdb
 D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\obj\Debug\net6.0\ref\PishmanBet.Services.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\bin\Debug\net6.0\PishmanBet.Common.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\bin\Debug\net6.0\PishmanBet.Data.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\bin\Debug\net6.0\PishmanBet.Data.Models.dll
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\bin\Debug\net6.0\PishmanBet.Common.pdb
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\bin\Debug\net6.0\PishmanBet.Data.Models.pdb
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\bin\Debug\net6.0\PishmanBet.Data.pdb
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\obj\Debug\net6.0\PishmanBet.Services.sourcelink.json
+D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet.Services\obj\Debug\net6.0\PishmanB.2143E024.Up2Date

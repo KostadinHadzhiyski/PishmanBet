@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PishmanBet
 build_property.RootNamespace = PishmanBet
 build_property.ProjectDir = D:\Programing Projects\PishmanBet\PishmanBet\PishmanBet\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -56,8 +58,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programing Projects/PishmanBet/PishmanBet/PishmanBet/Views/Match/GetComingMatches.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hcR2V0Q29taW5nTWF0Y2hlcy5jc2h0bWw=
+[D:/Programing Projects/PishmanBet/PishmanBet/PishmanBet/Views/Match/Coming.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hcQ29taW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Programing Projects/PishmanBet/PishmanBet/PishmanBet/Views/Shared/Error.cshtml]

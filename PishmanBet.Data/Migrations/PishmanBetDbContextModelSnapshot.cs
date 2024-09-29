@@ -3,7 +3,6 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PishmanBet.Data;
 
@@ -12,10 +11,9 @@ using PishmanBet.Data;
 namespace PishmanBet.Data.Migrations
 {
     [DbContext(typeof(PishmanBetDbContext))]
-    [Migration("20240915171045_MatchesAdded")]
-    partial class MatchesAdded
+    partial class PishmanBetDbContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -253,6 +251,12 @@ namespace PishmanBet.Data.Migrations
                     b.Property<int>("ScoreSign")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("StartDateBg")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("StartDateUtc")
+                        .HasColumnType("datetime2");
+
                     b.HasKey("Id");
 
                     b.HasIndex("AwayTeamId");
@@ -276,12 +280,10 @@ namespace PishmanBet.Data.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("OddName")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("ScoreName")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 

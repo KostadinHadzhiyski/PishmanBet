@@ -11,11 +11,13 @@ namespace PishmanBet.Controllers
         {
             matchService = service;
         }
-        public IActionResult GetComingMatches()
+        public async Task<IActionResult> Coming()
         {
             ICollection<FootballMatchGetModel> matches = matchService.GetComingMatches();
+
+            var savedMatchesCount = await matchService.WriteNewMatchesAsync(matches);
             
-            return View();
+            return View(matches);
         }
     }
 }

@@ -16,7 +16,10 @@
       },
       "PishmanBet.Common/1.0.0": {
         "runtime": {
-          "PishmanBet.Common.dll": {}
+          "PishmanBet.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

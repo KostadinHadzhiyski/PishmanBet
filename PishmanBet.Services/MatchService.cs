@@ -1,8 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PishmanBet.Common.Enums;
 using PishmanBet.Data;
 using PishmanBet.Data.Models;
 using PishmanBet.Data.ViewModels;
 using PishmanBet.Services.Contracts;
+using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -181,6 +183,61 @@ namespace PishmanBet.Services
             await context.SaveChangesAsync();
             return team;
         }
+
+        private DateTime mapStartDate(string dateString)
+        {
+            dateString = Regex.Replace(dateString, @"\b(\d+)(st|nd|rd|th)\b", "$1");
+            string format = "ddd d MMM h:mmtt";
+            DateTime date = DateTime.ParseExact(dateString, format, CultureInfo.InvariantCulture);
+            return date;
+        }
+
+        public async Task<int> WriteNewMatchesAsync(ICollection<FootballMatchGetModel> gettedMatches)
+        {
+            List<FootballMatch>? matches = gettedMatches
+                .Select(gm => new FootballMatch
+                {
+                      AwayTeam = new FootballTeam{ Name = gm.AwayTeamName },
+                      HomeTeam = new FootballTeam{ Name = gm.HomeTeamName },
+                      MatchStatus = MatchStatus.NotStarted,
+                      StartDateUtc = mapStartDate(gm.StartDateTime),
+                      StartDateBg = mapStartDate(gm.StartDateTime).AddHours(3),
+                })
+                .ToList();
+
+            var writedMatches = context
+                .Matches
+                .Where(m => m.MatchStatus != MatchStatus.Finished)
+                .Include("HomeTeam")
+                .Include("AwayTeam")
+                .ToList();
+
+            HashSet<FootballMatch> newMatches = new HashSet<FootballMatch>();
+
+            if(matches != null)
+            {
+                foreach (var match in matches)
+                {
+                    if (writedMatches.Any(m => m.HomeTeam.Name == match.HomeTeam.Name && m.AwayTeam.Name == match.AwayTeam.Name && m.StartDateUtc == match.StartDateUtc))
+                    {
+                        continue;
+                    }
+
+                    newMatches.Add(match);
+
+                }
+            }
+
+            
+            if(newMatches.Count > 0)
+            {
+                await context.AddRangeAsync(newMatches);
+                await context.SaveChangesAsync();
+            }
+            
+            return newMatches.Count();
+        }
+
     }
 
         
