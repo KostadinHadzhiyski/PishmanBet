@@ -3,56 +3,52 @@
   "WorkspaceRootPath": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0575BB4C-0899-4A0B-8552-70F0AC64EAA2}|PishmanBet.Services\\PishmanBet.Services.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.services\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0575BB4C-0899-4A0B-8552-70F0AC64EAA2}|PishmanBet.Services\\PishmanBet.Services.csproj|solutionrelative:pishmanbet.services\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|solutionrelative:pishmanbet\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet\\controllers\\matchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|solutionrelative:pishmanbet\\controllers\\matchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929180612_StartDateTimeBgAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PishmanBet.Data\\Migrations\\20240929180612_StartDateTimeBgAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0575BB4C-0899-4A0B-8552-70F0AC64EAA2}|PishmanBet.Services\\PishmanBet.Services.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.services\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0575BB4C-0899-4A0B-8552-70F0AC64EAA2}|PishmanBet.Services\\PishmanBet.Services.csproj|solutionrelative:pishmanbet.services\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F8D4B8D-D84D-47FE-882D-976D2F14992E}|PishmanBet.Data.Models\\PishmanBet.Data.Models.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.data.models\\footballmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F8D4B8D-D84D-47FE-882D-976D2F14992E}|PishmanBet.Data.Models\\PishmanBet.Data.Models.csproj|solutionrelative:pishmanbet.data.models\\footballmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A128F9E-7A23-4FBE-9C2A-8691CEEFEAEA}|PishmanBet.Common\\PishmanBet.Common.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.common\\validationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A128F9E-7A23-4FBE-9C2A-8691CEEFEAEA}|PishmanBet.Common\\PishmanBet.Common.csproj|solutionrelative:pishmanbet.common\\validationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet\\views\\match\\coming.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|solutionrelative:pishmanbet\\views\\match\\coming.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD3BC272-7BEC-4F4D-B9B6-2F0223901C1A}|PishmanBet.Data.ViewModels\\PishmanBet.Data.ViewModels.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.data.viewmodels\\footballmatchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD3BC272-7BEC-4F4D-B9B6-2F0223901C1A}|PishmanBet.Data.ViewModels\\PishmanBet.Data.ViewModels.csproj|solutionrelative:pishmanbet.data.viewmodels\\footballmatchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929173908_OddNameAndScoreNameRequiredRemoved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PishmanBet.Data\\Migrations\\20240929173908_OddNameAndScoreNameRequiredRemoved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F8D4B8D-D84D-47FE-882D-976D2F14992E}|PishmanBet.Data.Models\\PishmanBet.Data.Models.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.data.models\\footballteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F8D4B8D-D84D-47FE-882D-976D2F14992E}|PishmanBet.Data.Models\\PishmanBet.Data.Models.csproj|solutionrelative:pishmanbet.data.models\\footballteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929173648_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PishmanBet.Data\\Migrations\\20240929173648_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929173340_OddNameAndScoreNameRequiredRemoved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PishmanBet.Data\\Migrations\\20240929173340_OddNameAndScoreNameRequiredRemoved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929172412_OddNameAndScoreNameRequiredRemoved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PishmanBet.Data\\Migrations\\20240929172412_OddNameAndScoreNameRequiredRemoved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD3BC272-7BEC-4F4D-B9B6-2F0223901C1A}|PishmanBet.Data.ViewModels\\PishmanBet.Data.ViewModels.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.data.viewmodels\\viewmodelconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3BC272-7BEC-4F4D-B9B6-2F0223901C1A}|PishmanBet.Data.ViewModels\\PishmanBet.Data.ViewModels.csproj|solutionrelative:pishmanbet.data.viewmodels\\viewmodelconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0575BB4C-0899-4A0B-8552-70F0AC64EAA2}|PishmanBet.Services\\PishmanBet.Services.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.services\\contracts\\imatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0575BB4C-0899-4A0B-8552-70F0AC64EAA2}|PishmanBet.Services\\PishmanBet.Services.csproj|solutionrelative:pishmanbet.services\\contracts\\imatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56A220A9-408A-4ECF-841D-AD29CA6B867F}|PishmanBet.Data\\PishmanBet.Data.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.data\\pishmanbetdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56A220A9-408A-4ECF-841D-AD29CA6B867F}|PishmanBet.Data\\PishmanBet.Data.csproj|solutionrelative:pishmanbet.data\\pishmanbetdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56A220A9-408A-4ECF-841D-AD29CA6B867F}|PishmanBet.Data\\PishmanBet.Data.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.data\\migrations\\20240929173908_oddnameandscorenamerequiredremoved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A220A9-408A-4ECF-841D-AD29CA6B867F}|PishmanBet.Data\\PishmanBet.Data.csproj|solutionrelative:pishmanbet.data\\migrations\\20240929173908_oddnameandscorenamerequiredremoved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet\\views\\match\\coming.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|solutionrelative:pishmanbet\\views\\match\\coming.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1F8D4B8D-D84D-47FE-882D-976D2F14992E}|PishmanBet.Data.Models\\PishmanBet.Data.Models.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.data.models\\footballmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8D4B8D-D84D-47FE-882D-976D2F14992E}|PishmanBet.Data.Models\\PishmanBet.Data.Models.csproj|solutionrelative:pishmanbet.data.models\\footballmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929172412_OddNameAndScoreNameRequiredRemoved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PishmanBet.Data\\Migrations\\20240929172412_OddNameAndScoreNameRequiredRemoved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A220A9-408A-4ECF-841D-AD29CA6B867F}|PishmanBet.Data\\PishmanBet.Data.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.data\\pishmanbetdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A220A9-408A-4ECF-841D-AD29CA6B867F}|PishmanBet.Data\\PishmanBet.Data.csproj|solutionrelative:pishmanbet.data\\pishmanbetdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD3BC272-7BEC-4F4D-B9B6-2F0223901C1A}|PishmanBet.Data.ViewModels\\PishmanBet.Data.ViewModels.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.data.viewmodels\\matchgetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{56A220A9-408A-4ECF-841D-AD29CA6B867F}|PishmanBet.Data\\PishmanBet.Data.csproj|solutionrelative:pishmanbet.data\\pishmanbet.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A128F9E-7A23-4FBE-9C2A-8691CEEFEAEA}|PishmanBet.Common\\PishmanBet.Common.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.common\\validationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A128F9E-7A23-4FBE-9C2A-8691CEEFEAEA}|PishmanBet.Common\\PishmanBet.Common.csproj|solutionrelative:pishmanbet.common\\validationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8A128F9E-7A23-4FBE-9C2A-8691CEEFEAEA}|PishmanBet.Common\\PishmanBet.Common.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.common\\enums\\matchstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A128F9E-7A23-4FBE-9C2A-8691CEEFEAEA}|PishmanBet.Common\\PishmanBet.Common.csproj|solutionrelative:pishmanbet.common\\enums\\matchstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -113,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|solutionrelative:pishmanbet\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|solutionrelative:pishmanbet\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,6 +121,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8E6D27B6-CCC0-468E-B9E0-21F6B7983EE3}|PishmanBet\\PishmanBet.csproj|solutionrelative:pishmanbet\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A220A9-408A-4ECF-841D-AD29CA6B867F}|PishmanBet.Data\\PishmanBet.Data.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.data\\migrations\\20240929180612_startdatetimebgadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A220A9-408A-4ECF-841D-AD29CA6B867F}|PishmanBet.Data\\PishmanBet.Data.csproj|solutionrelative:pishmanbet.data\\migrations\\20240929180612_startdatetimebgadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A220A9-408A-4ECF-841D-AD29CA6B867F}|PishmanBet.Data\\PishmanBet.Data.csproj|d:\\programing projects\\pishmanbet\\pishmanbet\\pishmanbet.data\\migrations\\20240929173648_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A220A9-408A-4ECF-841D-AD29CA6B867F}|PishmanBet.Data\\PishmanBet.Data.csproj|solutionrelative:pishmanbet.data\\migrations\\20240929173648_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,115 +138,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20240929180612_StartDateTimeBgAdded.cs",
-              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929180612_StartDateTimeBgAdded.cs",
-              "RelativeDocumentMoniker": "PishmanBet.Data\\Migrations\\20240929180612_StartDateTimeBgAdded.cs",
-              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929180612_StartDateTimeBgAdded.cs",
-              "RelativeToolTip": "PishmanBet.Data\\Migrations\\20240929180612_StartDateTimeBgAdded.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T18:06:13.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20240929173648_Initial.cs",
-              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929173648_Initial.cs",
-              "RelativeDocumentMoniker": "PishmanBet.Data\\Migrations\\20240929173648_Initial.cs",
-              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929173648_Initial.cs",
-              "RelativeToolTip": "PishmanBet.Data\\Migrations\\20240929173648_Initial.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAgwC8AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T17:36:48.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240929173340_OddNameAndScoreNameRequiredRemoved.cs",
-              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929173340_OddNameAndScoreNameRequiredRemoved.cs",
-              "RelativeDocumentMoniker": "PishmanBet.Data\\Migrations\\20240929173340_OddNameAndScoreNameRequiredRemoved.cs",
-              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929173340_OddNameAndScoreNameRequiredRemoved.cs",
-              "RelativeToolTip": "PishmanBet.Data\\Migrations\\20240929173340_OddNameAndScoreNameRequiredRemoved.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T17:33:40.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FootballTeam.cs",
-              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.Models\\FootballTeam.cs",
-              "RelativeDocumentMoniker": "PishmanBet.Data.Models\\FootballTeam.cs",
-              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.Models\\FootballTeam.cs",
-              "RelativeToolTip": "PishmanBet.Data.Models\\FootballTeam.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T17:21:53.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MatchController.cs",
-              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Controllers\\MatchController.cs",
-              "RelativeDocumentMoniker": "PishmanBet\\Controllers\\MatchController.cs",
-              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Controllers\\MatchController.cs",
-              "RelativeToolTip": "PishmanBet\\Controllers\\MatchController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAD4vxQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T17:20:45.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MatchService.cs",
-              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\MatchService.cs",
-              "RelativeDocumentMoniker": "PishmanBet.Services\\MatchService.cs",
-              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\MatchService.cs",
-              "RelativeToolTip": "PishmanBet.Services\\MatchService.cs",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAWwOcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T18:45:18.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FootballMatch.cs",
-              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.Models\\FootballMatch.cs",
-              "RelativeDocumentMoniker": "PishmanBet.Data.Models\\FootballMatch.cs",
-              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.Models\\FootballMatch.cs",
-              "RelativeToolTip": "PishmanBet.Data.Models\\FootballMatch.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAASwCEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T19:34:54.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FootballMatchViewModel.cs",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.ViewModels\\FootballMatchViewModel.cs",
               "RelativeDocumentMoniker": "PishmanBet.Data.ViewModels\\FootballMatchViewModel.cs",
               "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.ViewModels\\FootballMatchViewModel.cs",
               "RelativeToolTip": "PishmanBet.Data.ViewModels\\FootballMatchViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T17:42:35.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "20240929173908_OddNameAndScoreNameRequiredRemoved.cs",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929173908_OddNameAndScoreNameRequiredRemoved.cs",
               "RelativeDocumentMoniker": "PishmanBet.Data\\Migrations\\20240929173908_OddNameAndScoreNameRequiredRemoved.cs",
@@ -263,7 +168,135 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
+              "Title": "IMatchService.cs",
+              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\Contracts\\IMatchService.cs",
+              "RelativeDocumentMoniker": "PishmanBet.Services\\Contracts\\IMatchService.cs",
+              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\Contracts\\IMatchService.cs",
+              "RelativeToolTip": "PishmanBet.Services\\Contracts\\IMatchService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwA4AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T17:39:25.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Coming.cshtml",
+              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Views\\Match\\Coming.cshtml",
+              "RelativeDocumentMoniker": "PishmanBet\\Views\\Match\\Coming.cshtml",
+              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Views\\Match\\Coming.cshtml",
+              "RelativeToolTip": "PishmanBet\\Views\\Match\\Coming.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T17:47:23.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20240929173648_Initial.cs",
+              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929173648_Initial.cs",
+              "RelativeDocumentMoniker": "PishmanBet.Data\\Migrations\\20240929173648_Initial.cs",
+              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929173648_Initial.cs",
+              "RelativeToolTip": "PishmanBet.Data\\Migrations\\20240929173648_Initial.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwC8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T17:36:48.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidationConstants.cs",
+              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Common\\ValidationConstants.cs",
+              "RelativeDocumentMoniker": "PishmanBet.Common\\ValidationConstants.cs",
+              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Common\\ValidationConstants.cs",
+              "RelativeToolTip": "PishmanBet.Common\\ValidationConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:15:21.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MatchService.cs",
+              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\MatchService.cs",
+              "RelativeDocumentMoniker": "PishmanBet.Services\\MatchService.cs",
+              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\MatchService.cs",
+              "RelativeToolTip": "PishmanBet.Services\\MatchService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T18:44:21.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MatchController.cs",
+              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Controllers\\MatchController.cs",
+              "RelativeDocumentMoniker": "PishmanBet\\Controllers\\MatchController.cs",
+              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Controllers\\MatchController.cs",
+              "RelativeToolTip": "PishmanBet\\Controllers\\MatchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T18:44:15.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "PishmanBet\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "PishmanBet\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAWwFIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:28:00.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FootballMatch.cs",
+              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.Models\\FootballMatch.cs",
+              "RelativeDocumentMoniker": "PishmanBet.Data.Models\\FootballMatch.cs",
+              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.Models\\FootballMatch.cs",
+              "RelativeToolTip": "PishmanBet.Data.Models\\FootballMatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T19:34:54.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewModelConstants.cs",
+              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.ViewModels\\ViewModelConstants.cs",
+              "RelativeDocumentMoniker": "PishmanBet.Data.ViewModels\\ViewModelConstants.cs",
+              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.ViewModels\\ViewModelConstants.cs",
+              "RelativeToolTip": "PishmanBet.Data.ViewModels\\ViewModelConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T18:42:26.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20240929180612_StartDateTimeBgAdded.cs",
+              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929180612_StartDateTimeBgAdded.cs",
+              "RelativeDocumentMoniker": "PishmanBet.Data\\Migrations\\20240929180612_StartDateTimeBgAdded.cs",
+              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929180612_StartDateTimeBgAdded.cs",
+              "RelativeToolTip": "PishmanBet.Data\\Migrations\\20240929180612_StartDateTimeBgAdded.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T18:06:13.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PishmanBet\\Views\\Shared\\_Layout.cshtml",
@@ -275,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\appsettings.json",
               "RelativeDocumentMoniker": "PishmanBet\\appsettings.json",
@@ -287,32 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Coming.cshtml",
-              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Views\\Match\\Coming.cshtml",
-              "RelativeDocumentMoniker": "PishmanBet\\Views\\Match\\Coming.cshtml",
-              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Views\\Match\\Coming.cshtml",
-              "RelativeToolTip": "PishmanBet\\Views\\Match\\Coming.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-15T17:47:23.436Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "IMatchService.cs",
-              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\Contracts\\IMatchService.cs",
-              "RelativeDocumentMoniker": "PishmanBet.Services\\Contracts\\IMatchService.cs",
-              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\Contracts\\IMatchService.cs",
-              "RelativeToolTip": "PishmanBet.Services\\Contracts\\IMatchService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T17:39:25.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "20240929172412_OddNameAndScoreNameRequiredRemoved.cs",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240929172412_OddNameAndScoreNameRequiredRemoved.cs",
               "RelativeDocumentMoniker": "PishmanBet.Data\\Migrations\\20240929172412_OddNameAndScoreNameRequiredRemoved.cs",
@@ -320,12 +328,11 @@
               "RelativeToolTip": "PishmanBet.Data\\Migrations\\20240929172412_OddNameAndScoreNameRequiredRemoved.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T17:24:12.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T17:24:12.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "FootballTeamViewModel.cs",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.ViewModels\\FootballTeamViewModel.cs",
               "RelativeDocumentMoniker": "PishmanBet.Data.ViewModels\\FootballTeamViewModel.cs",
@@ -337,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Program.cs",
               "RelativeDocumentMoniker": "PishmanBet\\Program.cs",
@@ -349,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "PishmanBet\\Views\\Home\\Privacy.cshtml",
@@ -369,12 +376,11 @@
               "RelativeToolTip": "PishmanBet.Data\\PishmanBetDbContext.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAgwBkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T17:55:32.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T17:55:32.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PishmanBet\\Controllers\\HomeController.cs",
@@ -386,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "PishmanBet.Services.csproj",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Services\\PishmanBet.Services.csproj",
               "RelativeDocumentMoniker": "PishmanBet.Services\\PishmanBet.Services.csproj",
@@ -394,11 +400,12 @@
               "RelativeToolTip": "PishmanBet.Services\\PishmanBet.Services.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-29T17:01:35.713Z"
+              "WhenOpened": "2024-09-29T17:01:35.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "MatchGetModel.cs",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data.ViewModels\\MatchGetModel.cs",
               "RelativeDocumentMoniker": "PishmanBet.Data.ViewModels\\MatchGetModel.cs",
@@ -410,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PishmanBet\\Views\\Home\\Index.cshtml",
@@ -422,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "20240915165035_TeamsAndMatchesAdded.cs",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\Migrations\\20240915165035_TeamsAndMatchesAdded.cs",
               "RelativeDocumentMoniker": "PishmanBet.Data\\Migrations\\20240915165035_TeamsAndMatchesAdded.cs",
@@ -434,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "PishmanBet.Data.csproj",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Data\\PishmanBet.Data.csproj",
               "RelativeDocumentMoniker": "PishmanBet.Data\\PishmanBet.Data.csproj",
@@ -442,11 +449,12 @@
               "RelativeToolTip": "PishmanBet.Data\\PishmanBet.Data.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-29T15:26:49.116Z"
+              "WhenOpened": "2024-09-29T15:26:49.116Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "MatchStatus.cs",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Common\\Enums\\MatchStatus.cs",
               "RelativeDocumentMoniker": "PishmanBet.Common\\Enums\\MatchStatus.cs",
@@ -458,19 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ValidationConstants.cs",
-              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Common\\ValidationConstants.cs",
-              "RelativeDocumentMoniker": "PishmanBet.Common\\ValidationConstants.cs",
-              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet.Common\\ValidationConstants.cs",
-              "RelativeToolTip": "PishmanBet.Common\\ValidationConstants.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T18:15:21.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 27,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "PishmanBet\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
@@ -482,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "PishmanBet\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
@@ -494,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "PishmanBet\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
@@ -507,19 +503,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "PishmanBet\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "PishmanBet\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAASwHAAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T18:28:00.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "PishmanBet\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -531,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 26,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "PishmanBet\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -543,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 29,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\Programing Projects\\PishmanBet\\PishmanBet\\PishmanBet\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "PishmanBet\\Areas\\Identity\\Pages\\Account\\Register.cshtml",

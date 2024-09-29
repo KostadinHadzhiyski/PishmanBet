@@ -12,5 +12,7 @@ namespace PishmanBet.Services.Contracts
 
         public Task<int> WriteNewMatchesAsync(ICollection<FootballMatchGetModel> gettedMatches);
 
+        public Task<ICollection<FootballMatchViewModel>> GetNotFinishedMatchViewModels();
+
     }
 }

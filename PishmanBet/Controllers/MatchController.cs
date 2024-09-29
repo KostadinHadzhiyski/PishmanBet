@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PishmanBet.Data.ViewModels;
 using PishmanBet.Services.Contracts;
 
 namespace PishmanBet.Controllers
 {
+    [Authorize]
     public class MatchController : Controller
     {
         IMatchService matchService;
@@ -15,9 +17,12 @@ namespace PishmanBet.Controllers
         {
             ICollection<FootballMatchGetModel> matches = matchService.GetComingMatches();
 
-            var savedMatchesCount = await matchService.WriteNewMatchesAsync(matches);
-            
-            return View(matches);
+            int savedMatchesCount = await matchService.WriteNewMatchesAsync(matches);
+
+            ICollection<FootballMatchViewModel>? notStartedMatches = await matchService.GetNotFinishedMatchViewModels();
+
+
+            return View(notStartedMatches);
         }
     }
 }

@@ -9,13 +9,12 @@ namespace PishmanBet.Data.ViewModels
         [Required]
         public Guid Id { get; set; }
 
-        [Required]
-        public FootballTeamViewModel HomeTeam { get; set; } = null!;
+        public string HomeTeamName { get; set; } = null!;
 
-        [Required]
-        public FootballTeamViewModel AwayTeam { get; set; } = null!;
+        public string AwayTeamName { get; set; } = null!;
 
-        [Required]
-        public string StartTime { get; set; } = null!;
+        public DateTime StartTime { get; set; }
+
+        public string StartTimeString { get; set; } = null!;
     }
 }
