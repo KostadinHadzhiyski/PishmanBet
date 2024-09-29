@@ -7,6 +7,7 @@ using PishmanBet.Services.Contracts;
 using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
+using static PishmanBet.Data.ViewModels.ViewModelConstants.FootballMatch;
 
 
 namespace PishmanBet.Services
@@ -238,6 +239,23 @@ namespace PishmanBet.Services
             return newMatches.Count();
         }
 
+        public async Task<ICollection<FootballMatchViewModel>> GetNotFinishedMatchViewModels()
+        {
+            var notStartedMatches = await context
+                .Matches
+                .Where(m => m.MatchStatus != MatchStatus.Finished)
+                .Select(m => new FootballMatchViewModel
+                {
+                     HomeTeamName = m.HomeTeam.Name,
+                     AwayTeamName = m.AwayTeam.Name,
+                     StartTime = m.StartDateBg,
+                     StartTimeString = m.StartDateBg.ToString(StartDateStringFormat)
+                })
+                .OrderBy(m => m.StartTime)
+                .ToListAsync();
+
+            return notStartedMatches;
+        }
     }
 
         
